@@ -1,7 +1,7 @@
 # TaskPhin Technical CRUD App Backend (Node.js)
 TaskPhin Technical CRUD App is a Node.js application that provides a basic CRUD API (Login , Register , Favorite Movies List, Add New Movie,Update Exsiting and Delete ) for managing movie data in a Postgres database and Prisma ORM. The API includes user authentication using JSON Web Tokens (JWT) and password hashing using bcrypt. It utilizes the Prisma ORM for defining and interacting with the database schema.
 
-# taskphin-server
+# Project Directory
 |-- Controller
 |   -- user.controller.js     # Contains controller functions for user-related and movie actions
 |-- DB
@@ -26,8 +26,7 @@ Postgress Databse (pgAdmin 4)
 Node.js
 
 # Follow these steps to set up and run the project:
-cd taskphin-server
-=> npm install
+- npm install
 
 # Database Setup:
 Create a Postgres database and update the DB_URL in the .env file with the database connection URL.
